@@ -17,6 +17,12 @@
          "."))
 
 (defn ayoda
+  "https://purelyfunctional.tv/issues/purelyfunctional-tv-newsletter-371-chain-map-filter-and-reduce/
+  Talk like this, Yoda does. Translate back to normal, you must.
+  - Expect at most one comma in the sentence.
+  - If there is no comma, it doesn’t need translation.
+  - Try to handle capitals correctly.
+  - There may be more than one sentence. Handle all of them."
   [yoda-speak]
   (prn)
   (->> (map
