@@ -3,6 +3,8 @@
             [clojure.test :refer :all]))
 
 (deftest parse-sentence
+  "Talk like this, Yoda does. Translate back to normal, you must."
+
   (testing "A single Yoda-style sentence"
     (let [yoda-speak "Talk like this, Yoda does."
           actual (yoda/ayoda yoda-speak)
