@@ -32,11 +32,3 @@
                reconstruct))
         (string/split yoda-speak #"\."))
        (string/join " ")))
-
-(ayoda "Talk like this, Yoda does.")
-
-(ayoda "Translate back to normal, you must")
-
-(ayoda "Fun, Clojure is. Learn it, I will.")
-
-(ayoda "Do or do not. There is no try.")
